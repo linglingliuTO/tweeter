@@ -72,6 +72,6 @@ output.counter {
   font-size:smaller
 }
 
-#icons:nth-child(1){
-  color:#4056A1;
+.fa-solid:hover {
+color:rgb(81, 77, 134)
 }
