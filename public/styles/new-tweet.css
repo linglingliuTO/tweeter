@@ -1,0 +1,77 @@
+
+.container {
+  align-items: center;
+  display:flex;
+  justify-content: center; 
+  background-color: #FAEBD7;
+  background-image: url("https://www.transparenttextures.com/patterns/cloth-alike.png");
+  flex-direction: column;
+  height:fit-content;
+
+}
+
+
+#tweet-text {
+  width: 100%;
+  background-color: #FAEBD7;
+  background-image: url("https://www.transparenttextures.com/patterns/cloth-alike.png");
+  border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom-color: #4056A1;
+    border-bottom-width: medium;
+
+}
+
+button {
+  background-color: #4056A1;
+  font-size: 20px;
+  font-color: #FFFFFF;
+  font-family: 'Bungee', cursive;
+  color: #FFFFFF;
+}
+
+output.counter {
+  font-family: 'Bungee', cursive;
+  font-size: 20px;
+  color: black;
+}
+
+#counter_div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tweet-container {
+ display:flex;
+ flex-direction: column;
+ width: 100%;
+ justify-content: space-between;
+ border: 3px black solid;
+ height: 10em;
+ margin-top: 1em;
+ margin-bottom: 1em;
+ padding: 0.5em;
+}
+
+.tweet-container .tweet-name{
+  display:flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+
+.tweet-container p{
+  border-bottom: 3px black solid;
+}
+
+.tweet-container footer{
+  display:flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size:smaller
+}
+
+#icons:nth-child(1){
+  color:#4056A1;
+}
