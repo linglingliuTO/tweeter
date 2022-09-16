@@ -1,9 +1,9 @@
-header {
-  padding-top: 180px;
-  width:100%;
-  height: 600px;
-  background-color: #FAEBD7;
+.header-background {
+  height: 500px;
+  background-color: #a7a6a4;
   background-image: url("https://www.transparenttextures.com/patterns/cloth-alike.png");
+  display:flex;
+  flex-direction: column;
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
@@ -13,24 +13,55 @@ header div {
   display:flex;
 } 
 
+header {
 
-main {
-  width:90%;
-  align-items: center;
-  justify-content: center; 
-  background-color: #FAEBD7;
-  background-image: url("https://www.transparenttextures.com/patterns/cloth-alike.png");
-  flex-direction: column;
-  align-self: center;
+  width:30%;
+  margin-top: 100px;
+  padding-top: 100px;
+  padding-left: 40px;
+}
 
-} 
 
- .container {
-  align-items: center;
+.container {
   display:flex;
-  justify-content: center; 
-  background-color: #FAEBD7;
-  background-image: url("https://www.transparenttextures.com/patterns/cloth-alike.png");
-  flex-direction: column;
 
+  background-image: url("https://www.transparenttextures.com/patterns/cloth-alike.png");
+  height: 100%
+  flex-direction: row;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+  header {
+    width:100%;
+    height: 600px;
+    margin-top: 0px;
+    padding-left: 0px;
+    background-image: url("https://www.transparenttextures.com/patterns/cloth-alike.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  }
+  
+  .container {
+    align-items: center;
+    display:flex;
+    justify-content: center; 
+    background-color: #FAEBD7;
+    background-image: url("https://www.transparenttextures.com/patterns/cloth-alike.png");
+    flex-direction: column;
+    height:fit-content;
+  
+  }
+
+  main {
+    width:90%;
+    align-items: center;
+    justify-content: center; 
+    background-color: #FAEBD7;
+    background-image: url("https://www.transparenttextures.com/patterns/cloth-alike.png");
+    flex-direction: column;
+    margin: 30px;
+
+  
+  } 
 }

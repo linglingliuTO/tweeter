@@ -4,7 +4,7 @@
 <head>
   <!-- Meta Information -->
   <title>Tweeter - Home Page</title>
-
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
   <!-- External CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     type="text/css" />
@@ -23,6 +23,7 @@
 
   <!-- External JS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/timeago.js/4.0.2/timeago.min.js" integrity="sha512-SVDh1zH5N9ChofSlNAK43lcNS7lWze6DTVx1JCXH1Tmno+0/1jMpdbR8YDgDUfcUrPp1xyE53G42GFrcM0CMVg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
   <!-- App JS -->
   <script type="text/javascript" src="/scripts/client.js"></script>
@@ -42,52 +43,41 @@
   </nav>
 
   <!-- Page-specific (main) content here -->
-  <div class = "container">
-
-  <header>
-    <div>
-      <img src="/images/profile-hex.png">
-    </div>
-    <br>
-    <div>
-      <h2><strong>Your</strong> Name</h2>
-    </div>
-  </header>
-
-
-  <main>
-    <section class="new-tweet">
-      <h2>Compose Tweet</h2>
-      <form method="POST" action="/tweets">
-        <label for="tweet-text">What are you humming about?</label>
-        <textarea name="text" id="tweet-text"></textarea>
-        <div id = "counter_div">
-          <button type="submit">Tweet</button>
-          <output name="counter" class="counter" for="tweet-text">140</output>
-        </div>
-      </form>
-    </section>
-
-    <section class = "main-container">
-    <article class="tweet-container">
-      <div class = "tweet-name">
-        <div >testName</div>
-        <div>@testName</div>
+  <div class="container">
+   
+    <header>
+      <div class = header-background>
+      <div>
+        <img src="/images/profile-hex.png">
       </div>
-      <p>hello</p>
-      <footer>
-        <div>10 days ago</div>
-        <div>
+      <br>
+      <div>
+        <h2><strong>Your</strong> Name</h2>
+      </div>
+    </div>
+    </header>
+
+
+    <main>
+      <section class="new-tweet">
+        <h2>Compose Tweet</h2>
+        <form id ="submit-tweet" method="POST" action="/tweets">
+          <label for="tweet-text">What are you humming about?</label>
+          <textarea name="text" id="tweet-text"></textarea>
+          <div id="counter_div">
+            <button type="submit">Tweet</button>
+            <output name="counter" class="counter" for="tweet-text">140</output>
+          </div>
+        </form>
+      </section>
+
+      <section class="main-container">
+        <article class="tweets-container">
           
-         <i class="fa-solid fa-flag"></i>
-         <i class="fa-solid fa-retweet"></i>
-  <i class="fa-solid fa-heart"></i>
-        </div>
-      </footer>
-    </article>
-  </section>
-  </main>
-</div>
+        </article>
+      </section>
+    </main>
+  </div>
 </body>
 
 </html>

@@ -2,7 +2,7 @@
 
 $(document).ready(function() {
 
-  const textbox = document.getElementById("tweet-text");
+  
   
   $(textbox).on('input', function() {
 

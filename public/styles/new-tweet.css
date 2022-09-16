@@ -1,15 +1,4 @@
 
-.container {
-  align-items: center;
-  display:flex;
-  justify-content: center; 
-  background-color: #FAEBD7;
-  background-image: url("https://www.transparenttextures.com/patterns/cloth-alike.png");
-  flex-direction: column;
-  height:fit-content;
-
-}
-
 
 #tweet-text {
   width: 100%;
@@ -42,36 +31,44 @@ output.counter {
   justify-content: space-between;
 }
 
-.tweet-container {
+.tweets-container {
  display:flex;
  flex-direction: column;
  width: 100%;
  justify-content: space-between;
- border: 3px black solid;
- height: 10em;
+ height: fit-content;
  margin-top: 1em;
  margin-bottom: 1em;
- padding: 0.5em;
 }
 
-.tweet-container .tweet-name{
+.tweets-container .tweets-border {
+  border: 3px black solid;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 0.5em;
+ }
+ 
+
+
+.tweet-name{
   display:flex;
   justify-content: space-between;
   width: 100%;
 }
 
 
-.tweet-container p{
+.tweets-container p{
   border-bottom: 3px black solid;
 }
 
-.tweet-container footer{
+.tweets-container footer{
   display:flex;
   justify-content: space-between;
   width: 100%;
-  font-size:smaller
+  font-size:small;
 }
 
 .fa-solid:hover {
 color:rgb(81, 77, 134)
 }
+
