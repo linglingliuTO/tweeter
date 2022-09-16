@@ -18,8 +18,8 @@ This repository is the starter code for the project: Students will fork and clon
 - Node 5.10.x or above
 
 
-## screenshots
+## Screenshots
 
-!["Screen shot of tablet mode"] (https://github.com/linglingliuTO/tweeter/blob/master/docs/Tablet.png?raw=true)
+!["Screen shot of tablet mode"](https://github.com/linglingliuTO/tweeter/blob/master/docs/Tablet.png?raw=true)
 
-!["Screen shot of browser mode"] (https://github.com/linglingliuTO/tweeter/blob/master/docs/desktop.png?raw=true)
+!["Screen shot of browser mode"](https://github.com/linglingliuTO/tweeter/blob/master/docs/desktop.png?raw=true)
