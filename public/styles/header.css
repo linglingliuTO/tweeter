@@ -24,10 +24,8 @@ header {
 
 .container {
   display:flex;
-
-  background-image: url("https://www.transparenttextures.com/patterns/cloth-alike.png");
-  height: 100%
-  flex-direction: row;
+  height: 100%;
+ 
 
 }
 
@@ -46,10 +44,8 @@ header {
     align-items: center;
     display:flex;
     justify-content: center; 
-    background-color: #FAEBD7;
-    background-image: url("https://www.transparenttextures.com/patterns/cloth-alike.png");
     flex-direction: column;
-    height:fit-content;
+    height:100%;
   
   }
 
