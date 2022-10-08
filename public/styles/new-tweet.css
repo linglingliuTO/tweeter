@@ -26,6 +26,10 @@ output.counter {
   color: black;
 }
 
+output.counter.negative {
+  color:red 
+}
+
 #counter_div {
   display: flex;
   justify-content: space-between;

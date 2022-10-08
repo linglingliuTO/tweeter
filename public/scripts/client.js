@@ -87,18 +87,12 @@ $(document).ready(function () {
           $.post('/tweets', data)
             .then(() => {
               $(this).find('#tweet-text').val('');
-              loadTweets();
-    
-    
-            });
-      
-
-           
-
-            loadtweets()
-
-    
+              loadtweets();
+            })
+     
   });
+
+  loadtweets()
 
 })
 
