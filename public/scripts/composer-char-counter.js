@@ -8,10 +8,6 @@ $(document).ready(function() {
    //const counter1 = document.getElementsByClassName("counter");
    //const counter2 = $(this).parent().children('#counter_div').children('.counter');
    $('.counter').val(remainingChar);
-   
-   
-
-
    // 
 
    if (remainingChar < 0) {
@@ -22,6 +18,12 @@ $(document).ready(function() {
 
    
   })
+
+  $('#submit-button').on('click', function() {
+    $('.counter').val(140);
+    
+   })
+
 
 });
 

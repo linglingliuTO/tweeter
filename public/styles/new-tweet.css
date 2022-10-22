@@ -51,6 +51,10 @@ output.counter.negative {
   margin-bottom: 1em;
   padding: 0.5em;
  }
+
+ .tweets-container .tweets-border:hover {
+  box-shadow: 0 0 15px rgba(33,33,33,.2); 
+ }
  
 
 
