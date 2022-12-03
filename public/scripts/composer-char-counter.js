@@ -20,8 +20,12 @@ $(document).ready(function() {
   })
 
   $('#submit-button').on('click', function() {
+    if (remainingChar > 140) {
+      return
+    } else {
+
     $('.counter').val(140);
-    
+  }
    })
 
 

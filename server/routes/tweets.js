@@ -23,7 +23,6 @@ module.exports = function(DataHelpers) {
       return;
     }
 
-    $("#errorEmpty").hide();
 
 
 
